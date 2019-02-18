@@ -20,7 +20,7 @@ unsigned long A = 1000;
 //********** Setup ****************************************************************
 void setup()
 {
-  pinMode(A, OUTPUT);     // definir el pin 5 com una sortida
+  pinMode(a, OUTPUT);     // definir el pin 5 com una sortida
   pinMode(B, OUTPUT);     // definir el pin 6 com una sortida
   pinMode(C, OUTPUT);     // definir el pin 7 com una sortida
   pinMode(D, OUTPUT);     // definir el pin 8 com una sortida
