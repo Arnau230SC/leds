@@ -20,7 +20,7 @@ const int D = 8;
 const int E = 9;          
 const int F = 10;        
 const int G = 11;          
-unsigned long A = 1000;
+unsigned long Z = 1000;  //variable per al delay
 //********** Setup ****************************************************************
 
 void setup()
@@ -47,7 +47,8 @@ void loop()
   digitalWrite(E, HIGH);    // posar a 5V el pin 9
   digitalWrite(F, HIGH);    // posar a 5V el pin 10
   digitalWrite(G, LOW);    // posar a 5V el pin 10
-  delay(A);                 
+  
+  delay(Z);                 
 
   digitalWrite(a, LOW);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -57,7 +58,7 @@ void loop()
   digitalWrite(F, LOW);    // posar a 5V el pin 10
   digitalWrite(G, LOW);    // posar a 5V el pin 10
 
-  delay(A);
+  delay(Z);  
 
   digitalWrite(a, HIGH);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -67,7 +68,7 @@ void loop()
   digitalWrite(F, LOW);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
   
-  delay(A); 
+  delay(Z);  
 
   digitalWrite(a, HIGH);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -76,7 +77,8 @@ void loop()
   digitalWrite(E, LOW);    // posar a 5V el pin 9
   digitalWrite(F, LOW);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
-  delay(A);                 
+  
+  delay(Z);                   
 
   digitalWrite(a, LOW);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -85,7 +87,8 @@ void loop()
   digitalWrite(E, LOW);    // posar a 5V el pin 9
   digitalWrite(F, HIGH);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
-  delay(A);                  
+  
+  delay(Z);                    
 
   digitalWrite(a, HIGH);    // posar a 5V el pin 5
   digitalWrite(B, LOW);    // posar a 5V el pin 6
@@ -95,7 +98,7 @@ void loop()
   digitalWrite(F, HIGH);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
 
-  delay(A);                 
+  delay(Z);                   
 
   digitalWrite(a, LOW);    // posar a 5V el pin 5
   digitalWrite(B, LOW);    // posar a 5V el pin 6
@@ -105,7 +108,7 @@ void loop()
   digitalWrite(F, HIGH);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
 
-  delay(A);                 
+  delay(Z);                   
 
   digitalWrite(a, HIGH);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -115,7 +118,7 @@ void loop()
   digitalWrite(F, LOW);    // posar a 5V el pin 10
   digitalWrite(G, LOW);    // posar a 5V el pin 10
 
-  delay(A);                  
+  delay(Z);                  
 
   digitalWrite(a, HIGH);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -125,9 +128,7 @@ void loop()
   digitalWrite(F, HIGH);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
 
-  delay(A);    
-
-
+  delay(Z);    
 
   digitalWrite(a, HIGH);    // posar a 5V el pin 5
   digitalWrite(B, HIGH);    // posar a 5V el pin 6
@@ -137,8 +138,7 @@ void loop()
   digitalWrite(F, HIGH);    // posar a 5V el pin 10
   digitalWrite(G, HIGH);    // posar a 5V el pin 10
 
-  delay(A);                 
-
+  delay(Z);                 
 
 }
 //********** Funcions **********************************************************
